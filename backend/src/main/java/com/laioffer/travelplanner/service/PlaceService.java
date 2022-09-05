@@ -22,7 +22,7 @@ import org.apache.http.util.EntityUtils;
 
 @Service
 public class PlaceService {
-    private static final String MAP_API_KEY = "AIzaSyC2OtNgKjM1aMy8ur8ltA9LTS19fT-Ndzc";
+    private static final String MAP_API_KEY = "";
 
     private static final String URL =
             "https://maps.googleapis.com/maps/api/place/textsearch/json?query=new%20york%20tourists%20attractions&key=AIzaSyC2OtNgKjM1aMy8ur8ltA9LTS19fT-Ndzc";
